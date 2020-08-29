@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46DCC3A75DB516D5C2BD517C /* Pods_Flowerly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81255822096A61068E170B6 /* Pods_Flowerly.framework */; };
+		551A55A824FA15430054F30E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 551A55A724FA15430054F30E /* GoogleService-Info.plist */; };
+		552C54D724F982020021135D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 552C54D424F982020021135D /* manifest.json */; };
+		552C54D824F982020021135D /* dict.txt in Resources */ = {isa = PBXBuildFile; fileRef = 552C54D524F982020021135D /* dict.txt */; };
+		552C54D924F982020021135D /* model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 552C54D624F982020021135D /* model.tflite */; };
+		55B3560424F8B025003642FA /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3560324F8B025003642FA /* HapticFeedback.swift */; };
+		55B3560624F8B035003642FA /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3560524F8B035003642FA /* OnBoardingViewController.swift */; };
+		55B3560824F8B03F003642FA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3560724F8B03F003642FA /* SignUpViewController.swift */; };
+		55B3560A24F8B048003642FA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B3560924F8B048003642FA /* MainViewController.swift */; };
 		55E0B33F24F8AD7800B1D80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E0B33E24F8AD7800B1D80E /* AppDelegate.swift */; };
 		55E0B34124F8AD7800B1D80E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E0B34024F8AD7800B1D80E /* SceneDelegate.swift */; };
-		55E0B34324F8AD7800B1D80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E0B34224F8AD7800B1D80E /* ViewController.swift */; };
+		55E0B34324F8AD7800B1D80E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E0B34224F8AD7800B1D80E /* SignInViewController.swift */; };
 		55E0B34624F8AD7800B1D80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E0B34424F8AD7800B1D80E /* Main.storyboard */; };
 		55E0B34824F8AD7800B1D80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E0B34724F8AD7800B1D80E /* Assets.xcassets */; };
 		55E0B34B24F8AD7800B1D80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E0B34924F8AD7800B1D80E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F624A64FF6F798D58A6D68F /* Pods-Flowerly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flowerly.debug.xcconfig"; path = "Target Support Files/Pods-Flowerly/Pods-Flowerly.debug.xcconfig"; sourceTree = "<group>"; };
+		551A55A724FA15430054F30E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		552C54D424F982020021135D /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		552C54D524F982020021135D /* dict.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dict.txt; sourceTree = "<group>"; };
+		552C54D624F982020021135D /* model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.tflite; sourceTree = "<group>"; };
+		55B3560324F8B025003642FA /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		55B3560524F8B035003642FA /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		55B3560724F8B03F003642FA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		55B3560924F8B048003642FA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		55E0B33B24F8AD7800B1D80E /* Flowerly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flowerly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E0B33E24F8AD7800B1D80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55E0B34024F8AD7800B1D80E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		55E0B34224F8AD7800B1D80E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55E0B34224F8AD7800B1D80E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		55E0B34524F8AD7800B1D80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55E0B34724F8AD7800B1D80E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55E0B34A24F8AD7800B1D80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55E0B34C24F8AD7800B1D80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		704A60666C52236984554F24 /* Pods-Flowerly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flowerly.release.xcconfig"; path = "Target Support Files/Pods-Flowerly/Pods-Flowerly.release.xcconfig"; sourceTree = "<group>"; };
+		F81255822096A61068E170B6 /* Pods_Flowerly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flowerly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46DCC3A75DB516D5C2BD517C /* Pods_Flowerly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		552C54D324F982020021135D /* DownloadedFlowerModels */ = {
+			isa = PBXGroup;
+			children = (
+				552C54D424F982020021135D /* manifest.json */,
+				552C54D524F982020021135D /* dict.txt */,
+				552C54D624F982020021135D /* model.tflite */,
+			);
+			path = DownloadedFlowerModels;
+			sourceTree = "<group>";
+		};
+		55627F0F24F8AF3400B6ED02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55627F1024F8AF4100B6ED02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55E0B34424F8AD7800B1D80E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55627F1124F8AF4A00B6ED02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55E0B34224F8AD7800B1D80E /* SignInViewController.swift */,
+				55B3560724F8B03F003642FA /* SignUpViewController.swift */,
+				55B3560924F8B048003642FA /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		55627F1224F8AF5D00B6ED02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55E0B34724F8AD7800B1D80E /* Assets.xcassets */,
+				55E0B34924F8AD7800B1D80E /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55627F1324F8AF6600B6ED02 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				55B3560324F8B025003642FA /* HapticFeedback.swift */,
+				55B3560524F8B035003642FA /* OnBoardingViewController.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		55E0B33224F8AD7800B1D80E = {
 			isa = PBXGroup;
 			children = (
+				552C54D324F982020021135D /* DownloadedFlowerModels */,
 				55E0B33D24F8AD7800B1D80E /* Flowerly */,
 				55E0B33C24F8AD7800B1D80E /* Products */,
+				A95AD1C5E43639E8D7675487 /* Pods */,
+				8D013957F97799E36F9E07EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +135,32 @@
 			children = (
 				55E0B33E24F8AD7800B1D80E /* AppDelegate.swift */,
 				55E0B34024F8AD7800B1D80E /* SceneDelegate.swift */,
-				55E0B34224F8AD7800B1D80E /* ViewController.swift */,
-				55E0B34424F8AD7800B1D80E /* Main.storyboard */,
-				55E0B34724F8AD7800B1D80E /* Assets.xcassets */,
-				55E0B34924F8AD7800B1D80E /* LaunchScreen.storyboard */,
+				55627F1324F8AF6600B6ED02 /* Utilities */,
+				55627F1224F8AF5D00B6ED02 /* Supporting Files */,
+				55627F1124F8AF4A00B6ED02 /* Controller */,
+				55627F1024F8AF4100B6ED02 /* View */,
+				55627F0F24F8AF3400B6ED02 /* Model */,
 				55E0B34C24F8AD7800B1D80E /* Info.plist */,
+				551A55A724FA15430054F30E /* GoogleService-Info.plist */,
 			);
 			path = Flowerly;
+			sourceTree = "<group>";
+		};
+		8D013957F97799E36F9E07EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F81255822096A61068E170B6 /* Pods_Flowerly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A95AD1C5E43639E8D7675487 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F624A64FF6F798D58A6D68F /* Pods-Flowerly.debug.xcconfig */,
+				704A60666C52236984554F24 /* Pods-Flowerly.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55E0B34F24F8AD7800B1D80E /* Build configuration list for PBXNativeTarget "Flowerly" */;
 			buildPhases = (
+				6B77DBB1B48CEB9BE6C6DEDD /* [CP] Check Pods Manifest.lock */,
 				55E0B33724F8AD7800B1D80E /* Sources */,
 				55E0B33824F8AD7800B1D80E /* Frameworks */,
 				55E0B33924F8AD7800B1D80E /* Resources */,
+				B8E23821FFFEEFCA97334E0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +223,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				552C54D924F982020021135D /* model.tflite in Resources */,
 				55E0B34B24F8AD7800B1D80E /* LaunchScreen.storyboard in Resources */,
+				552C54D724F982020021135D /* manifest.json in Resources */,
 				55E0B34824F8AD7800B1D80E /* Assets.xcassets in Resources */,
+				552C54D824F982020021135D /* dict.txt in Resources */,
 				55E0B34624F8AD7800B1D80E /* Main.storyboard in Resources */,
+				551A55A824FA15430054F30E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B77DBB1B48CEB9BE6C6DEDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flowerly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8E23821FFFEEFCA97334E0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flowerly/Pods-Flowerly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flowerly/Pods-Flowerly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flowerly/Pods-Flowerly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		55E0B33724F8AD7800B1D80E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E0B34324F8AD7800B1D80E /* ViewController.swift in Sources */,
+				55B3560A24F8B048003642FA /* MainViewController.swift in Sources */,
+				55B3560824F8B03F003642FA /* SignUpViewController.swift in Sources */,
+				55E0B34324F8AD7800B1D80E /* SignInViewController.swift in Sources */,
+				55B3560424F8B025003642FA /* HapticFeedback.swift in Sources */,
 				55E0B33F24F8AD7800B1D80E /* AppDelegate.swift in Sources */,
 				55E0B34124F8AD7800B1D80E /* SceneDelegate.swift in Sources */,
+				55B3560624F8B035003642FA /* OnBoardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +430,7 @@
 		};
 		55E0B35024F8AD7800B1D80E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F624A64FF6F798D58A6D68F /* Pods-Flowerly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +449,7 @@
 		};
 		55E0B35124F8AD7800B1D80E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 704A60666C52236984554F24 /* Pods-Flowerly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
